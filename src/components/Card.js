@@ -12,7 +12,7 @@ function Card({ price, description, title, image, type, category }) {
       className={`${pageTypewidth} h-80 shadow-2xl rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer`}
     >
       <div className="m-3 flex flex-col items-center h-1/2">
-        <h3 className="text-sm font-medium text-center">{title}</h3>
+        <h3 className="text-sm font-semibold text-center">{title}</h3>
         <img
           src={image}
           alt={image}
