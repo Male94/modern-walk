@@ -24,9 +24,7 @@ function Card({ price, description, title, image, type, category }) {
         style={background}
       >
         <h1 className="text-blue-700 font-medium">Rs {price}</h1>
-        <p className="text-center mt-4 px-5 text-xs 2xl:text-xs">
-          {description}
-        </p>
+        <p className="text-center mt-4 px-5 text-sm">{description}</p>
       </div>
     </div>
   );
